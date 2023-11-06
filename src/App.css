@@ -1,0 +1,137 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-image: url(./background.svg);
+  background-size: 100%;
+  padding-left: 8%;
+  padding-top: 8%;
+   background: white;
+  overflow: hidden;
+}
+
+h1, h3, label {
+  color: hsl(213, 96%, 18%);
+}
+
+p {
+  color: grey;
+}
+
+input {
+  width: 100%;
+  height: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 3%;
+  padding: 2%;
+  border-width: 1px;
+}
+
+.card-1, .card-2 {
+  width: 50%;
+  border-radius: 0%;
+  margin: 0% 0% 0% 25%;
+  padding: 2%;
+  line-height: 25px;
+}
+
+.step-1-Error {
+  color: red;
+  display: inline;
+  margin-left: 0%;
+  padding-left: 50%;
+}
+
+.Error1 {
+  color: red;
+}
+
+.step-2-Plan {
+  width: 25%;
+  display: inline-block;
+  margin: 4% 6% 6% 2%;
+  border-radius: 10%;
+  padding: 2%;
+  background: white;
+}
+
+.step-2-Plan svg {
+  float: left;
+}
+
+
+.step-2-Plan:hover {
+  background-color: hsl(206, 94%, 87%);
+}
+
+.step-2-Plan-Selected {
+  border-color:  hsl(243, 100%, 62%);
+  background-color: hsl(206, 94%, 87%);
+}
+
+.goBackButton { 
+  width: 15%;
+  color: gray;
+  border: none;
+  background-color: white;
+  font-size: large;
+  float: left;
+  text-align: center;
+}
+
+.submit-button {
+  background-color: hsl(213, 96%, 18%);
+  border-radius: 10px;
+  color: white;
+  width: 15%;
+  font-size: large;
+  float: right;
+  text-align: center;
+}
+
+
+  .wrapperHeader {
+    display: block;
+    background-image: url(./background.svg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    float: left;
+    padding: 2%;
+    width: 15%;
+    border-radius: 10px;
+  }
+
+  .wrapperElement {
+    margin: 3% 5% 0% 5%;
+    justify-content: center;
+    font-weight: 700;
+    border-radius: 50%;
+    border: 1.5px solid white;
+    color: #fff;
+    padding: 7%;
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+}
+
+  .wrapperDetails {
+    display: inline-flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 2%;
+  }
+
+  /* numbers  */
+ .headerNumbers {
+    width: 100%;
+    color: rgb(234, 230, 230);
+    margin: 1%;
+  }
+
+  .headerNumbersTitle {
+    margin-top: 3%;
+    margin: 0%;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+  }
+
+
